@@ -1,0 +1,166 @@
+*{
+
+}
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3vw;
+    padding-left: 3vw;
+
+}
+.cabecalho p{
+    color: rgb(40, 40, 209);
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    font-size: x-large;
+}
+.botaozinho{
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    font-size: xx-large;
+}
+.imagem1{
+    width: 100vw;
+    height: auto;
+    padding-bottom:7vw;
+}
+.image1{
+    padding-bottom: 8vw; 
+    display: flex;
+    justify-content: center;
+}
+.titulo1{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border: none;
+    margin: none;
+    padding-bottom: 2vw;
+}
+.titulinho1{
+    font-size:12vw;
+    border: none;
+    margin: none;
+    padding-bottom: none;
+    text-align: center;
+}
+.pzinho1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textinho1{
+    font-size: 4vw;
+    text-align: center;
+    padding-bottom: 3vw;
+}
+.textinho2{
+    font-size: 7vw;
+    text-align: center;
+    padding-bottom: 4vw;
+    margin: none;
+    border: none;
+    padding-bottom: 1vw;
+}
+.image2{
+    display: flex;
+    justify-content: center;
+}
+.imagem2{
+    width: 86vw;
+    height: auto;
+    padding-bottom:7vw;
+    border-radius: 2vw;
+}
+.textinho3{
+    font-size: 7vw;
+    text-align: center;
+    padding-bottom: 4vw;
+    margin: none;
+    border: none;
+    padding-bottom: 1vw;
+}
+.imagem3{
+    width: 86vw;
+    height: auto;
+    padding-bottom:10vw;
+    border-radius: 2vw;
+}
+.cardzinhos{
+    background-color:rgb(236, 236, 236);
+}
+.cardzinhos{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5vw;
+    flex-direction: column;
+    
+}
+
+.card1{
+    display:flex;
+    justify-self: center;
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    padding-left: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin-bottom: 3vw;
+    border-radius: 2vw;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10vw;
+}
+.span{
+    
+  font-weight: bold;
+}
+.card2{
+    
+    display:flex;
+    justify-self: center;
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    padding-left: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin-bottom: 3vw;
+    border-radius: 2vw;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10vw;
+    
+}
+.card3{
+    display:flex;
+    justify-self: center;
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    padding-left: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin-bottom: 3vw;
+    border-radius: 2vw;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10vw;
+}
+.card4{
+    display:flex;
+    justify-self: center;
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    padding-left: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin-bottom: 3vw;
+    border-radius: 2vw;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10vw;
+}
+P{
+    margin: 0;
+}
