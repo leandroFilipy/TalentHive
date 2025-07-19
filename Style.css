@@ -9,6 +9,34 @@
     padding-left: 3vw;
 
 }
+
+.TalentDesktop{
+    display:none;
+}
+.hire2{
+    display: none;
+}
+.aboutUs2{
+    display: none;
+}
+.post2{
+    display: none;
+}
+.home2{
+    display: none;
+}
+.explore2{
+    display: none;
+}
+.login2{
+    display: none;
+}
+.desktop-botaoStart{
+    display: none;
+}
+.hzao{
+    margin:0;
+}
 .cabecalho p{
     color: rgb(40, 40, 209);
     text-decoration: none;
@@ -90,6 +118,11 @@
 }
 .cardzinhos{
     background-color:rgb(236, 236, 236);
+    padding-bottom: 18vw;
+    
+}
+.brancoo{
+    height: 20vw;
 }
 .cardzinhos{
     display: flex;
@@ -97,6 +130,10 @@
     border-radius: 5vw;
     flex-direction: column;
     
+}
+
+.cardzinhos p {
+
 }
 
 .card1{
@@ -108,17 +145,19 @@
     padding-top: 3vw;
     padding-bottom: 3vw;
     margin-bottom: 3vw;
+    margin-left: 0;
+    border-left: 0;
     border-radius: 2vw;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-right: 5vw ;
     gap: 10vw;
 }
-.span{
-    
-  font-weight: bold;
+.span2{
+    padding-right: 0;
 }
+
 .card2{
-    
     display:flex;
     justify-self: center;
     width: 80vw;
@@ -127,12 +166,15 @@
     padding-top: 3vw;
     padding-bottom: 3vw;
     margin-bottom: 3vw;
+    margin-left: 0;
+    border-left: 0;
     border-radius: 2vw;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-right: 5vw ;
     gap: 10vw;
-    
 }
+
 .card3{
     display:flex;
     justify-self: center;
@@ -142,9 +184,12 @@
     padding-top: 3vw;
     padding-bottom: 3vw;
     margin-bottom: 3vw;
+    margin-left: 0;
+    border-left: 0;
     border-radius: 2vw;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-right: 5vw ;
     gap: 10vw;
 }
 .card4{
@@ -156,11 +201,191 @@
     padding-top: 3vw;
     padding-bottom: 3vw;
     margin-bottom: 3vw;
+    margin-left: 0;
+    border-left: 0;
     border-radius: 2vw;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-right: 5vw ;
     gap: 10vw;
 }
 P{
     margin: 0;
 }
+.footer{
+    background-color: rgba(61, 125, 245, 0.945);
+    width: 91vw;
+    height: 205vw;
+    border-radius: 5vw;
+    padding-top: 20vw;
+}
+.bahh{
+    color: aliceblue;
+    font-size: 9.2vw;
+    padding-bottom: 6vw;
+    padding-left: 10vw;
+}
+.footer p {
+    color: aliceblue;
+}
+.textoMotivador{
+    font-size: 3vw;
+    line-height: 5vw;
+    padding-bottom: 6.5vw;
+    padding-left: 10vw;
+
+}
+.learnMore{
+    padding-top: 3vw;
+    background-color: aliceblue;
+    width: 27vw;
+    height: 7vw;
+    border-radius: 5vw;
+    text-align: center;
+    margin: 10vw;
+
+}
+.linhaBranca{
+    width: 78vw;
+    height: 0.2vw;
+    background-color: aliceblue;
+    margin-top: 18vw;
+    margin-left: 6vw;
+    margin-bottom: 18vw;
+}
+.resto{
+    padding-left: 6vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.talentHive{
+    font-size: 4vw;
+    margin-bottom: 4.2vw;
+}
+.discover{
+    line-height: 4.9vw;
+}
+.explore{
+    margin-bottom: 4.2vw;
+}
+.hire{
+    margin-bottom: 4.2vw;
+}
+.post{
+    margin-bottom: 18vw;
+}
+.restoo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 6vw;
+}
+.restoo2{
+    padding-left: 6vw;
+}
+.restoo3{
+    padding-left: 6vw;
+    padding-bottom:23vw;
+}
+.creditos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.copy{
+    text-align: center;
+    padding-bottom: 4vw;
+}
+.marlow{
+    border: 0;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.singapore{
+    text-align: center;
+    padding-bottom: 4vw;
+
+}
+.view{
+    color: aquamarine;
+    padding-bottom: 4vw;
+}
+.cookies{
+    text-align: center;
+}
+
+@media (min-width: 768px){
+
+    .botaozinho{
+        display: none;
+    }
+    .hzao{
+        display: none;
+    }
+
+    .cabecalho{
+        display: flex;
+        justify-content: space-between;
+    }
+    .desktop-cabecalho1{
+        width: 15vw;
+    }
+    .desktop-cabecalho3{
+        display: flex;
+        flex-direction: row;
+    }
+    .desktop-cabecalho2{
+        margin-top: 1.7vw;
+        display: flex;
+        flex-direction: row;
+        gap: 3vw;
+        margin-right: 1vw;
+    }
+    .desktop-cabecalho2 p{
+        color: black;
+        font-size: 1.7vw;
+    }
+    .TalentDesktop{
+        margin-top: 1.7vw;
+        display: block;
+        font-size: 5vw;
+    }
+    .home2{
+        display: block;
+    }
+    .hire2{
+        display: block;
+    }
+    .explore2{
+        display: block;
+    }
+    .post2{
+        display: block;
+    }
+    .aboutUs2{
+        display: block;
+    }
+    .login2{
+        margin-top: 1.7vw;
+        display: block;
+        margin-right: 2vw;
+    }
+    .desktop-botaoStart{
+        display: block;
+    }
+    .desktop-botaoStart{
+        margin-top: 1vw ;
+        height: 3vw;
+        text-decoration: none;
+        background-color: rgb(0, 119, 255);
+        border: 0;
+        color: aliceblue;
+        border-radius: 3vw;
+        width: 10vw;
+        font-size: 1vw;
+    }
+
+}
+    
